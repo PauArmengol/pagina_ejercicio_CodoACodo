@@ -1,0 +1,193 @@
+body {
+    background-color: rgb(142,209,140);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    width: 960px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#marca img {
+    width: 220px;
+    height: 70px;
+    float: left;
+}
+
+#botonera_principal {
+    width: 400px;
+    height: 50px;
+    float: right;
+    margin-top: 15px;
+}
+
+#botonera_principal ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+
+#botonera_principal ul li {
+    display: inline;
+}
+
+#botonera_principal ul li a {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(15,85,155);
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#botonera_principal ul li a:hover {
+    color: #000;
+    background-color: rgb(28, 6, 107);
+}
+
+#botonera_principal ul li a:link {
+     background-color: rgb(32, 67, 218);
+}
+
+#botonera_principal ul li a:visited {
+    background-color: rgb(60, 126, 187);
+}
+
+#botonera_principal ul li a:active {
+    background-color: rgb(16, 184, 21);
+}
+
+#contenido_principal {
+    width: 960px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#imagen1 {
+    background-image: url(../img/hombrecito.jpg);
+    width: 350px;
+    height: 300px;
+    float: left;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+#presentacion {
+    width: 600px;
+    height: 300px;
+    background-color: rgb(108, 225, 161);
+    float: right;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#titulo_principal {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+#contenido_articulo {
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#texto_contenido {
+    width: 200px;
+    height: 300px;
+    background-color: rgb(70, 173, 116);
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#contenido_segundo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+}
+
+#imagen2 {
+    background-image: url(../img/compudesign.jpg);
+    width: 440px;
+    height: 300px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-size: cover;
+}
+
+#destacado {
+    width: 250px;
+    height: 300px;
+    font-size: 30px;
+    background-color: rgb(204, 219, 127);
+    float: right;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#complementario {
+    width: 960px;
+    height: 180px;   
+    margin-bottom: 10px;
+    clear: both;
+}
+
+#img_aside {
+    width: 960px;
+    height: 180px;
+}
+
+footer {
+    width: 960px;
+    height: 180px;
+    background-color: #000;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+#datos {
+    width: 300px;
+    height: 180px;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#datos p {
+    font-size: 14px;
+}
+
+#redes {
+    width: 350px;
+    height: 35px;
+    float: right;
+}
+
+#botonera_footer ul{
+    margin-top: 5px;
+    list-style-type: none;
+}
+
+#botonera_footer ul li {
+    display: inline;
+    padding: 3px;
+}
+#botonera_footer ul li a {
+    text-decoration: none;
+}
+
+#botonera_footer ul li img {
+    height: auto;
+    width: 2em;
+}
